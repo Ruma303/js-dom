@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript DOM Live Coding</title>
+    <style>
+        #text {
+
+        }
+        .color {
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Inner HTML</h1>
+    <p class="color">Seleziona il tag con classe .color</p>
+    <h2 id="text">Seleziona il tag con id #text</p>
+
+    <!-- <ol>
+        <li>li numero 1</li>
+        <li>li numero 2</li>
+        <li>li numero 3</li>
+    </ol>-->
+    <script>
+        const classe = document.querySelector(".color");
+        const id = document.querySelector("#text");
+
+        const tag = document.querySelector("h1");
+        tag.innerHTML = "<h3>Cambio da h1 a h3</h3>";
+
+        /*
+        tag.innerHTML = "Testo del tag h1 cambiato dentro JS";
+        classe.innerHTML = "Testo del tag p cambiato dentro JS";
+        id.innerHTML = "Testo del tag h2 cambiato dentro JS";
+        */
+
+        /*
+        document.querySelectorAll("p");
+        document.writeln("Ciao da");
+        document.writeln("Javascript");
+        document.getElementsByName("div");
+        */
+
+        /*
+        const singoloLi = document.querySelector("li");
+        singoloLi.innerHTML = "Testo modificato nel primo Li";
+        */
+
+        /*
+        const tuttiGliLi = document.querySelectorAll("li");
+        for(let i = 0; i < tuttiGliLi.length; i++) {
+            tuttiGliLi[i].innerHTML = "Testo modificato in tutti gli Li";
+        }
+        */
+
+
+    </script>
+</body>
+</html>
