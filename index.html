@@ -10,53 +10,29 @@
 
         }
         .color {
-            font-size: 2rem;
+            font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
     <h1>Inner HTML</h1>
     <p class="color">Seleziona il tag con classe .color</p>
-    <h2 id="text">Seleziona il tag con id #text</p>
+    <h2 id="text">Seleziona il tag con id #text</h2>
 
-    <!-- <ol>
+    <ol>
         <li>li numero 1</li>
         <li>li numero 2</li>
         <li>li numero 3</li>
-    </ol>-->
-    <script>
-        const classe = document.querySelector(".color");
-        const id = document.querySelector("#text");
+    </ol>
 
-        const tag = document.querySelector("h1");
-        tag.innerHTML = "<h3>Cambio da h1 a h3</h3>";
+    <p class="color paragraph">Seleziona il tag con classe .color</p>
+    <p class="color">Seleziona il tag con classe .color</p>
+    <p id="par" style="text-decoration: underline;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque aspernatur, fugiat fugit eius ipsa nemo quis illo itaque fuga? Ab facere soluta, autem animi laboriosam alias cupiditate corporis fugiat qui?</p>
 
-        /*
-        tag.innerHTML = "Testo del tag h1 cambiato dentro JS";
-        classe.innerHTML = "Testo del tag p cambiato dentro JS";
-        id.innerHTML = "Testo del tag h2 cambiato dentro JS";
-        */
+    <input type="text" id="input" value="valore iniziale">
+    <textarea id="textarea" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam magni eaque ullam modi nisi, expedita nulla facilis dolores quae voluptatem et reiciendis commodi sed porro dolorum blanditiis voluptatum dolore sapiente.</textarea>
 
-        /*
-        document.querySelectorAll("p");
-        document.writeln("Ciao da");
-        document.writeln("Javascript");
-        document.getElementsByName("div");
-        */
-
-        /*
-        const singoloLi = document.querySelector("li");
-        singoloLi.innerHTML = "Testo modificato nel primo Li";
-        */
-
-        /*
-        const tuttiGliLi = document.querySelectorAll("li");
-        for(let i = 0; i < tuttiGliLi.length; i++) {
-            tuttiGliLi[i].innerHTML = "Testo modificato in tutti gli Li";
-        }
-        */
-
-
+    <script src="script.js">
     </script>
 </body>
 </html>
