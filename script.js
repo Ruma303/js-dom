@@ -47,6 +47,7 @@ tuttiGliLi[i].innerHTML = "Testo modificato in tutti gli Li";
 //$ classList
 //classe.classList.add("class2");
 //classe.classList.remove("color");
+//class.classList.toggle("color");
 
 /* if (classe.classList.contains("color")) {
 console.log("l'elemento ha la classe 'color'")
