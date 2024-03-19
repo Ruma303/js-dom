@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
         }
     </style>
 </head>
+
 <body>
     <h1>Inner HTML</h1>
     <p class="color">Seleziona il tag con classe .color</p>
@@ -24,18 +26,42 @@
 
     <p class="color paragraph">Seleziona il tag con classe .color</p>
     <p class="color">Seleziona il tag con classe .color</p>
-    <p id="par" style="text-decoration: underline;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque aspernatur, fugiat fugit eius ipsa nemo quis illo itaque fuga? Ab facere soluta, autem animi laboriosam alias cupiditate corporis fugiat qui?</p>
+    <p id="par" style="text-decoration: underline;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Atque
+        aspernatur, fugiat fugit eius ipsa nemo quis illo itaque fuga? Ab facere soluta, autem animi laboriosam alias
+        cupiditate corporis fugiat qui?</p>
     <br>
     <input type="text" id="input" value="valore iniziale">
     <br>
-    <textarea id="textarea" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam magni eaque ullam modi nisi, expedita nulla facilis dolores quae voluptatem et reiciendis commodi sed porro dolorum blanditiis voluptatum dolore sapiente.</textarea>
+    <textarea id="textarea" cols="30"
+        rows="10">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam magni eaque ullam modi nisi, expedita nulla facilis dolores quae voluptatem et reiciendis commodi sed porro dolorum blanditiis voluptatum dolore sapiente.</textarea>
 
+    <br><br>
+    <select id="select">
+        <option value="1">Opzione 1</option>
+        <option value="2">Opzione 2</option>
+        <option value="3">Opzione 3</option>
+    </select>
     <br><br>
     <fieldset>
         <label for="check">Checkbox</label>
-        <input type="checkbox" id="check"/>
+        <input type="checkbox" id="check" />
     </fieldset>
-    <script src="script.js">
-    </script>
+
+
+    <h1>Advanced DOM Manipulation</h1>
+    <p id="paragraph">
+        Testo innerHTML <strong>dentro il tag p</strong>
+    </p>
+
+    <ul id="ul">
+        <li>Ciao</li>
+        <li>a</li>
+        <li>tutti</li>
+    </ul>
+
+
+    <script src="script.js"></script>
+    <script src="advanced.js"></script>
 </body>
+
 </html>

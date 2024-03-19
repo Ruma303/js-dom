@@ -102,6 +102,13 @@ let textarea = document.querySelector("#textarea");
 var textareaValue = textarea.value;
 console.log(textareaValue) */
 
+/* const select = document.querySelector("#select");
+const options = document.querySelectorAll("option");
+
+console.log(select.value); // value dell'option selezionato
+console.log(options.value); // undefined */
+
+
 /* const checkbox = document.querySelector('input[type="checkbox"]');
 if (checkbox.checked) {
     console.log("La checkbox è selezionata");
