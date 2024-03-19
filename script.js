@@ -1,50 +1,53 @@
-//* Scrivere direttamente nel DOM
-/*
-document.write("Ciao da");
-document.writeln("Javascript");
+//, Scrivere direttamente nel DOM
+/* document.write("Ciao da ");
+document.writeln("JavaScript");
 console.log(window)
-console.log(document)
-*/
+console.log(document) */
 
-//* Oggetto Window
-/*
-console.log(window.innerWidth); // Output: larghezza della finestra in pixel
-console.log(window.innerHeight); // Output: altezza della finestra in pixel
-*/
+
+//, Oggetto Window
+/* console.log(window.innerWidth);
+// Larghezza della finestra in pixel
+console.log(window.innerHeight);
+// Altezza della finestra in pixel */
+
+/* alert("Messaggio di avviso");
+const result = confirm("Vuoi continuare?");
+const name = prompt("Come ti chiami?");
+console.log(`Il tuo nome è: ${name}`); */
 
 
 //! Elementi del DOM selezionati
 
 //* querySelector
- const tag = document.querySelector("h1");
+/* const tag = document.querySelector("h1");
 const p = document.querySelector("p");
 const classe = document.querySelector(".color");
-const id = document.querySelector("#text");
+const id = document.querySelector("#text"); */
 
 //console.log(tag)
 
-//% Selezionare gli elementi DOM con getElementBy...()
+//, Selezionare gli elementi DOM con getElementBy...()
 /* const tag = document.getElementsByTagName("h1");
 const classe = document.getElementsByClassName("color");
-const id = document.getElementById("text");
- */
+const id = document.getElementById("text"); */
 
+
+//, innerHTML
+/* const tag = document.querySelector("h1");
+tag.innerHTML = "Titolo h1 modificato"; */
 
 /* const singoloLi = document.querySelector("li");
 singoloLi.innerHTML = "Testo modificato nel primo Li"; */
 
-//% Selezionare tutti gli elementi DOM con querySelectAll()
+//, Selezionare tutti gli elementi DOM con querySelectAll()
 /*  const tuttiGliLi = document.querySelectorAll("li");
 for(let i = 0; i < tuttiGliLi.length; i++) {
 tuttiGliLi[i].innerHTML = "Testo modificato in tutti gli Li";
 } */
 
-//* Altre proprietà utili per il DOM Manipulation
 
-//$ innerHTML
-//p.innerHTML = "<span style=\"color:blue\">Cambio da h1 a h3</span>";
-
-//$ classList
+//, classList
 //classe.classList.add("class2");
 //classe.classList.remove("color");
 //class.classList.toggle("color");
@@ -56,17 +59,17 @@ console.log("l'elemento ha la classe 'color'")
 //console.log(classe.classList.length)
 
 
-//$ className
+//, className
 /* console.log(classe.className)
 classe.className += " class2";
 //classe.className = classe.className.replace(" class2", " replacedClass");
 console.log(classe.className) */
 
-//$ style
+
+//, style
 // let par = document.querySelector("#par");
 
 //? Modificare il colore di sfondo di un elemento:
-
 //par.style.background-color = "red";
 //par.style.backgroundColor = "red";
 
@@ -80,7 +83,9 @@ par.style.color = "blue"; */
 
 //par.style.display = "none";
 
-//$ value
+
+
+//, value
 /*  let input = document.querySelector("#input");
 
 //? Ottenere il valore di un campo di input:
@@ -92,8 +97,12 @@ console.log(inputValue)
 
 input.value = "Valore inserito da JavaScript";
 
-
 //? Ottenere il testo inserito in un campo di testo multilinea (textarea):
 let textarea = document.querySelector("#textarea");
 var textareaValue = textarea.value;
 console.log(textareaValue) */
+
+/* const checkbox = document.querySelector('input[type="checkbox"]');
+if (checkbox.checked) {
+    console.log("La checkbox è selezionata");
+} */
